@@ -33,7 +33,7 @@
     <p/>
     <br/>
     <p/>
-    ebooks Fixes: Git-Hash: <?= file_get_contents('githash.txt'); ?> 
+    ebooks Fixes: Git-Hash: <?= file_get_contents('/var/www/html/ebooks/.git/refs/heads/master'); ?>
   </form>
 </body>
 </html>

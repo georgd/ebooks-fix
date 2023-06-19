@@ -3,9 +3,10 @@ FROM catmandu-img
 LABEL maintainer="Wolfgang Astleitner <wolfgang.astleitner@jku.at>"
 ENV container=docker
 
-COPY ebooks /var/www/apps/ebooks
-COPY ebooks-fix /var/www/apps/ebooks-fix
-COPY .git/modules/ebooks/refs/heads/master /var/www/apps/ebooks-fix/githash.txt
+# Load as volume
+#COPY ebooks /var/www/html/ebooks
+COPY ebooks-fix /var/www/html/ebooks-fix
+#COPY .git/modules/ebooks/refs/heads/master /var/www/apps/ebooks-fix/githash.txt
 
 EXPOSE 80
 
