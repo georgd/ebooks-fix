@@ -23,7 +23,7 @@
     }
 
     #$cmd = "/var/www/apps/ebooks/perl/ebookpaket.pl -b -i \"$tmp_input\" -o \"$tmp_output\" -s \"$sigel\" -f /var/www/apps/ebooks/fixes/ebook_noinclude.fix";
-    $cmd = "/var/www/apps/ebooks/perl/ebookpaket.pl -b -i \"$tmp_input\" -o \"$tmp_output\" -s \"$sigel\"";
+    $cmd = "/var/www/html/ebooks/perl/ebookpaket.pl -b -i \"$tmp_input\" -o \"$tmp_output\" -s \"$sigel\"";
 
     #$rv = shell_exec($cmd);
     $op = array();

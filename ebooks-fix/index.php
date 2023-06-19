@@ -19,7 +19,7 @@
   </style>
 </head>
 <body>
-  <form enctype="multipart/form-data" action="fix.php" method="POST">
+  <form enctype="multipart/form-data" action="fix.php" method="post">
     <h1>MARC-Datei bereinigen</h1>
     
     <label class="label" for="marc_file">MARC Datei laden</label>
